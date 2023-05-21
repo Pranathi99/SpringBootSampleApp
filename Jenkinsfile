@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git repo clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/Pranathi99/TestProject-Backend.git'
+                git branch: 'main', url: 'https://github.com/Pranathi99/SpringBootSampleApp.git'
             }
         }
         stage('clean') {
